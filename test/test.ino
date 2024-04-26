@@ -36,9 +36,13 @@ void setup() {
 
   delay(100);
 
-  Keyboard.print("HELLO WORLD :EVIL SMILE:");
+  Keyboard.print("start https://www.youtube.com/watch?v=xvFZjo5PgG0"); // click the link eks dee
 
-  Serial.println("evil stuff");
+  delay(100);
+
+  typeKey(KEY_RETURN);
+
+  Serial.println("done evil stuff hehe");
 
   // end the magic
   Keyboard.end();
@@ -46,7 +50,5 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  Serial.println("epic loop");
-  delay(500);
+  // empty loop xd
 }
